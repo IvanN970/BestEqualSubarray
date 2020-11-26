@@ -42,9 +42,7 @@ namespace BestEqualSubarray
                         break;
                     }
                     i++;
-                }
-                Console.WriteLine(i);
-                Console.WriteLine(counter);
+               
                 FindStartIndexAndMaxLength(ref startIndex, ref maxLength, length, counter);
                 counter = i;
                 
